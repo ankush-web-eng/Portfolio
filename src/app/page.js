@@ -38,11 +38,9 @@ export default function Home() {
          />
          <div className="md:w-1/2 w-5/6 mt-5 flex flex-col space-y-4">
           <p className="p-4 ease-linear duration-300">
-            I am Ankush Singh and I am student of GLA University
-            I am Ankush Singh and I am student of GLA University
-            I am Ankush Singh and I am student of GLA University
-            I am Ankush Singh and I am student of GLA University
-            I am Ankush Singh and I am student of GLA University
+            Hi! I am Ankush, a Full-Stack Web Developer with skill set of NEXTJS, TypeScript and MongoDB.
+            I work in MERN Stack totally and provide my services as a freelancer on multiple plateforms.
+            If you want to join me, Connect me with my Social Media Handles. 
           </p>
           <span className="flex flex-row space-x-4">
             <Link href="https://www.linkedin.com/in/ankush-singh-b0389b27b/" target="_blank"><FaLinkedin /></Link>
