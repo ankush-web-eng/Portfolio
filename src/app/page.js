@@ -46,17 +46,20 @@ export default function Home() {
               href="https://www.linkedin.com/in/ankush-singh-b0389b27b/"
               target="_blank"
             >
-              <FaLinkedin />
+              <FaLinkedin color="blue"/>
             </Link>
             <Link href="https://github.com/ankush-web-eng/" target="_blank">
               <RxGithubLogo />
             </Link>
             <Link href="https://www.instagram.com/ankush__57s/" target="_blank">
-              <FaInstagram />
+              <FaInstagram color="red"/>
             </Link>
           </span>
         </div>
       </main>
+      <div className="mt-4 md:w-screen w-5/6 ">
+          
+      </div>
     </div>
   );
 }
