@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="h-screen w-screen flex flex-col">
       <nav className="flex justify-between max-h-full py-3">
-        <ul className="md:ml-6 ml-1flex flex-row space-x-3 items-center">
+        <ul className="md:ml-6 ml-1 flex flex-row space-x-3 items-center">
           <li className="font-serif font-bold text-2xl box-shadow-xl p-2 rounded-lg hover:bg-blue-400 ease-linear duration-300 cursor-pointer">
             Portfolio
           </li>
