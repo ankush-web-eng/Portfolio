@@ -22,7 +22,7 @@ import { IoLogoCss3 } from "react-icons/io";
 
 export default function Home() {
   return (
-    <div className="h-screen w-screen flex flex-col scroll-smooth">
+    <div className="h-screen w-screen flex flex-col scroll-smooth overflow-x-hidden overflow-y-hidden">
       <nav className="flex justify-between max-h-full py-3">
         <ul className="md:ml-6 ml-1 flex flex-row space-x-3 items-center">
           <li className="font-serif font-bold text-2xl box-shadow-xl p-2 rounded-lg hover:bg-blue-400 ease-linear duration-300 cursor-pointer">
@@ -72,20 +72,20 @@ export default function Home() {
           </span>
         </div>
       </main>
-      <div className="mt-4 mb-8 flex flex-col bg-blue-500 dark:bg-pink-500">
+      <div className="mt-4 mb-8 flex flex-col bg-blue-500 dark:bg-teal-500">
         <div className="mt-4 ml-5 flex flex-col">
           <p className="flex items-center space-x-2">
             <BsBoxFill color="black" size={30} />
             <p className="font-bold text-2xl text-black">Tech-Stacks</p>
           </p>
-          <span className="flex items-center justify-start space-x-3 ml-20 mt-3">
+          <span className="flex items-center justify-start space-x-3 ml-20 mt-3 md:flex-row flex-wrap">
             <FaHtml5 color="red" size={25} />
             <IoLogoCss3 color="orange" size={25} />
             <IoLogoJavascript color="yellow" size={25} />
             <SiTypescript color="blue" size={25} />
             <SiMongodb color="green" size={25} />
             <SiExpress color="red" size={25} />
-            <FaReact color="skyblue" size={25} />
+            <FaReact color="blue" size={25} />
             <FaNodeJs color="black" size={25} />
             <SiTailwindcss color="blue" size={25} />
             <TbBrandNextjs color="black" size={25} />
@@ -98,7 +98,7 @@ export default function Home() {
             Projects
           </span>
         </div>
-        <div className="flex justify-evenly items-center md:flex-row flex-col space-y-3 ">
+        <div className="flex justify-evenly items-center md:flex-row flex-col space-y-3 mb-8">
           <section className="box-shadow-xl shadow-xl px-2 py-1 bg-white dark:bg-black rounded-md flex-col">
             <div className="flex items-center justify-start">
               <IoIosChatbubbles />
