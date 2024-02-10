@@ -50,13 +50,13 @@ export default function Home() {
           className="rounded-full w-56 h-56"
         />
         <div className="md:w-1/2 w-5/6 mt-5 flex flex-col space-y-4 items-start">
-          <p className="p-4 ease-linear duration-300 italic font-bold">
+          <div className="p-4 ease-linear duration-300 italic font-bold">
             Hi! I am Ankush, a Full-Stack Web Developer with skill set of
             NEXTJS, TypeScript and MongoDB. I work in MERN Stack totally and
             provide my services as a freelancer on multiple platforms. If you
             want to join me, Connect me with my Social Media Handles.
-          </p>
-          <span className="flex flex-row space-x-4">
+          </div>
+          <div className="flex flex-row space-x-4">
             <Link
               href="https://www.linkedin.com/in/ankush-singh-b0389b27b/"
               target="_blank"
@@ -69,20 +69,16 @@ export default function Home() {
             <Link href="https://www.instagram.com/ankush__57s/" target="_blank">
               <FaInstagram color="red" size={25} />
             </Link>
-          </span>
+          </div>
         </div>
       </main>
       <div className="mt-4 mb-8 flex flex-col bg-blue-500 dark:bg-teal-500">
         <div className="mt-4 ml-5 flex flex-col">
-          <p className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2">
             <BsBoxFill color="black" size={30} />
             <p className="font-bold text-2xl text-black">Tech-Stacks</p>
-          </p>
-<<<<<<< HEAD
-          <span className="flex items-center justify-start space-x-3 ml-20 mt-3 md:flex-row flex-wrap">
-=======
-          <span className="flex items-center justify-start space-x-3 ml-10 mt-3">
->>>>>>> 2589156ba54da8f396aaaffffdb060c3d9bb0021
+          </div>
+          <div className="flex items-center justify-start space-x-3 ml-20 mt-3 md:flex-row flex-wrap">
             <FaHtml5 color="red" size={25} />
             <IoLogoCss3 color="orange" size={25} />
             <IoLogoJavascript color="yellow" size={25} />
@@ -94,7 +90,7 @@ export default function Home() {
             <SiTailwindcss color="blue" size={25} />
             <TbBrandNextjs color="black" size={25} />
             <SiSocketdotio color="blue" size={25} />
-          </span>
+          </div>
         </div>
         <div className="flex items-center mt-4 ml-4 space-x-2">
           <MdWork color="black" size={40} />
@@ -106,14 +102,14 @@ export default function Home() {
           <section className="box-shadow-xl shadow-xl px-2 py-1 bg-white dark:bg-black rounded-md flex-col">
             <div className="flex items-center justify-start">
               <IoIosChatbubbles />
-              <span className="font-bold">
+              <div className="font-bold">
                 <Link
                   href="https://blog-app-five-coral.vercel.app/"
                   target="_blank"
                 >
                   Chat-App
                 </Link>
-              </span>
+              </div>
             </div>
             <div className="">
               A Real Time Chat Application
