@@ -78,7 +78,11 @@ export default function Home() {
             <BsBoxFill color="black" size={30} />
             <p className="font-bold text-2xl text-black">Tech-Stacks</p>
           </p>
+<<<<<<< HEAD
           <span className="flex items-center justify-start space-x-3 ml-20 mt-3 md:flex-row flex-wrap">
+=======
+          <span className="flex items-center justify-start space-x-3 ml-10 mt-3">
+>>>>>>> 2589156ba54da8f396aaaffffdb060c3d9bb0021
             <FaHtml5 color="red" size={25} />
             <IoLogoCss3 color="orange" size={25} />
             <IoLogoJavascript color="yellow" size={25} />
