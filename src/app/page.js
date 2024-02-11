@@ -71,7 +71,7 @@ export default function Home() {
         />
         <div className="md:w-1/2 w-5/6 mt-5 flex flex-col space-y-4 items-start">
         <div className=" text-2xl flex items-center space-x-2">
-          <span className="">I'm a </span>
+          <span className="">I am a</span>
           <span className="font-bold text-red-600" >{text}</span>
           <span><Cursor /></span>
         </div>
