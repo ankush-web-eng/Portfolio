@@ -87,7 +87,7 @@ export default function Home() {
             <SiExpress color="red" size={25} />
             <FaReact color="blue" size={25} />
             <FaNodeJs color="black" size={25} />
-            <SiTailwindcss color="blue" size={25} />
+            <SiTailwindcss color="teal" size={25} />
             <TbBrandNextjs color="black" size={25} />
             <SiSocketdotio color="blue" size={25} />
           </div>
@@ -121,7 +121,7 @@ export default function Home() {
                 <TbBrandNextjs size={20} />
                 <SiSocketdotio color="blue" size={20} />
                 <SiMongodb color="green" size={20} />
-                <SiTailwindcss color="blue" size={20} />
+                <SiTailwindcss color="teal" size={20} />
               </div>
             </div>
           </section>
@@ -139,7 +139,7 @@ export default function Home() {
               <div className="flex space-x-2">
                 <TbBrandNextjs size={20} />
                 <SiMongodb color="green" size={20} />
-                <SiTailwindcss color="blue" size={20} />
+                <SiTailwindcss color="teal" size={20} />
               </div>
             </div>
           </section>
@@ -159,7 +159,7 @@ export default function Home() {
                 <SiExpress color="red" size={20} />
                 <FaReact color="skyblue" size={20} />
                 <FaNodeJs size={20} />
-                <SiTailwindcss color="blue" size={20} />
+                <SiTailwindcss color="teal" size={20} />
               </div>
             </div>
           </section>
