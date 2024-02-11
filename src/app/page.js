@@ -25,21 +25,11 @@ import { useTypewriter,Cursor } from "react-simple-typewriter";
 export default function Home() {
 
   const [text] = useTypewriter({
-    words: ["Ankush","Developer", "Content Writer" ],
+    words: ["Ankush","Developer", "Content Writer", "Content Creator" ],
     loop: {},
     typeSpeed:100,
     deleteSpeed: 40,
   })
-
-  const changeColors = function () {
-    const hex = "0123456789ABCDEF";
-    var cl = "#";
-    for (let i = 0; i < 6; i++) {
-      cl += hex[Math.floor(Math.random() * 16)];
-    }
-    return cl;
-    // console.log(cl)
-  };
 
   return (
     <div className="h-screen w-screen flex flex-col scroll-smooth overflow-x-hidden ">
