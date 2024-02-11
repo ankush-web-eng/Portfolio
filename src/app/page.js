@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 import { ModeToggle } from "@/components/toggle-theme";
 import { FaLinkedin } from "react-icons/fa6";
@@ -19,8 +20,27 @@ import { SiExpress } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
+import { useTypewriter,Cursor } from "react-simple-typewriter";
 
 export default function Home() {
+
+  const [text] = useTypewriter({
+    words: ["Ankush","Developer", "Content Writer" ],
+    loop: {},
+    typeSpeed:100,
+    deleteSpeed: 40,
+  })
+
+  const changeColors = function () {
+    const hex = "0123456789ABCDEF";
+    var cl = "#";
+    for (let i = 0; i < 6; i++) {
+      cl += hex[Math.floor(Math.random() * 16)];
+    }
+    return cl;
+    // console.log(cl)
+  };
+
   return (
     <div className="h-screen w-screen flex flex-col scroll-smooth overflow-x-hidden ">
       <nav className="flex justify-between max-h-full py-3">
@@ -50,11 +70,16 @@ export default function Home() {
           className="rounded-full w-56 h-56"
         />
         <div className="md:w-1/2 w-5/6 mt-5 flex flex-col space-y-4 items-start">
-          <div className="p-4 ease-linear duration-300 italic font-bold">
-            Hi! I am Ankush, a Full-Stack Web Developer with skill set of
-            NEXTJS, TypeScript and MongoDB. I work in MERN Stack totally and
-            provide my services as a freelancer on multiple platforms. If you
-            want to join me, Connect me with my Social Media Handles.
+        <div className=" text-2xl flex items-center space-x-2">
+          <span className="">I'm a </span>
+          <span className="font-bold text-red-600" >{text}</span>
+          <span><Cursor /></span>
+        </div>
+          <div className=" ease-linear duration-300 italic font-bold">
+            Hi! I am Ankush, Welcome to my Page. Come and explore with me
+            the World of development and Content Writing. 
+            You can connect with me via my Social Media Handles 
+            and E-Mails.  
           </div>
           <div className="flex flex-row space-x-4">
             <Link
