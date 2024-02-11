@@ -25,7 +25,7 @@ import { useTypewriter,Cursor } from "react-simple-typewriter";
 export default function Home() {
 
   const [text] = useTypewriter({
-    words: ["Ankush","Developer", "Content Writer", "Content Creator" ],
+    words: ["Developer", "Content Writer", "Content Creator" ],
     loop: {},
     typeSpeed:100,
     deleteSpeed: 40,
