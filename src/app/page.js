@@ -72,7 +72,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <div className="mt-4 mb-8 flex flex-col bg-blue-500 dark:bg-teal-500">
+      <div className="mt-4 flex flex-col bg-blue-500 dark:bg-teal-500">
         <div className="mt-4 ml-5 flex flex-col">
           <div className="flex items-center space-x-2">
             <BsBoxFill color="black" size={30} />
@@ -165,7 +165,6 @@ export default function Home() {
           </section>
         </div>
       </div>
-      <div className="h-1/4 "></div>
     </div>
   );
 }
