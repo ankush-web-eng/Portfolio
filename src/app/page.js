@@ -40,12 +40,12 @@ export default function Home() {
           </li>
         </ul>
         <ul className="flex md:mr-6 mr-1 items-center font-serif space-x-4">
-          <li className="hover:bg-blue-400 p-2 rounded-lg ease-linear duration-300">
+          {/* <li className="hover:bg-blue-400 p-2 rounded-lg ease-linear duration-300">
             <Link href="/services">Services</Link>
           </li>
           <li className="hover:bg-blue-400 p-2 rounded-lg ease-linear duration-300">
             <Link href="/freelance">Freelance</Link>
-          </li>
+          </li> */}
           <li>
             <ModeToggle />
           </li>
